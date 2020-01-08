@@ -104,7 +104,7 @@ public class JdbcHelper {
 			try {
 				stmt.executeUpdate();
 			} finally {
-				stmt.getConnection().close();
+				stmt.close();
 			}
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
@@ -132,7 +132,7 @@ public class JdbcHelper {
 		        }
 		        return idValue;
 			} finally {
-				stmt.getConnection().close();
+				stmt.close();
 			}
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
