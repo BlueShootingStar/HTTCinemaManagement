@@ -1,4 +1,4 @@
-﻿- Bước 1: Cài đặt Sql Server và môi trường Java
+﻿- Bước 1: Cài đặt Sql Server và môi trường Java (chỉ JDK 8 hoặc nhỏ hơn)
 - Bước 2: Thực thi file "0-full.sql" trong thư mục "co-so-du-lieu" để cài đặt cơ sở dữ liệu cho ứng dụng
 - Bước 3: Chạy file Setup HTT Cinema Management.exe để tiến hành cài đặt ứng dụng.
 
