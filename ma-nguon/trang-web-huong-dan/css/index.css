@@ -1,0 +1,68 @@
+﻿@charset "UTF-8";
+
+/* chung */
+* {
+	font-family: "Tahoma";
+}
+
+body {
+	background-color: #353c44;
+	background-image: url("../img/background.gif");
+}
+
+#title {
+	text-align: center;
+}
+
+#nav {
+	list-style: none;
+	width: 100%;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+button {
+	padding: 7px 7px; 
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #353c44;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 140%;
+	cursor: pointer;
+	transition: 0.3s;
+	border: none;
+	text-align: left;
+}
+
+button:hover {
+	background-color: #2e9e9e;
+	color: white;
+}
+
+/* hai khung hình */
+#col-left {
+	float: left;
+	width: 30%;
+	border: solid 2px white;
+}
+
+#col-right {
+	width: 68%;
+	float: right;
+	border: solid 2px #353c44;
+	background-color: white;
+}
+
+#col-right>p {
+	color: #353c44;
+	background-color: white;
+	max-width: 100%;
+	padding: 12px;
+	font-size: 140%;
+	overflow-wrap: break-word;
+	transition: 0.3s;
+}

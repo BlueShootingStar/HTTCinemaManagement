@@ -1,0 +1,7 @@
+﻿- Bước 1: Cài đặt Sql Server và môi trường Java
+- Bước 2: Thực thi file "0-full.sql" trong thư mục "co-so-du-lieu" để cài đặt cơ sở dữ liệu cho ứng dụng
+- Bước 3: Chạy file Setup HTT Cinema Management.exe để tiến hành cài đặt ứng dụng.
+
+!!!! Chú ý 1: Không được đặt thư mục chứa ứng dụng trong các thư mục bị hạn chế quyền đọc ghi vì sẽ lỗi khi in các file pdf vé xem phim
+
+!!!! Chú ý 2: Trong thư mục HTT Cinema Management (thư mục sau khi được cài đặt), gồm hai phiên bản, phiên bản fake là phiên bản lấy ngày 15/7/2019 làm ngày đầu tiên trong các ngày chiếu. Phiên bản bình thường sẽ lấy ngày hiện tại làm ngày đầu tiên.
